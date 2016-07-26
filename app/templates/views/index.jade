@@ -1,0 +1,75 @@
+extends ../layouts/_default
+
+block content
+    .header
+        nav.navbar.navbar-default
+            .container
+                .navbar-header
+                    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#')
+                        img(src="./assets/img/logo.png", alt="")
+
+                #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li.active
+                            a(href='#') Home
+                        li
+                            a(href='#') Features
+                        li
+                            a(href='#') Design
+                        li
+                            a(href='#') Download
+        
+
+        .hero-details.wow.fadeInUp(data-wow-delay="0.3s", data-duration="2s")
+            h1 Music App
+            .hero-tagline Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+            .hero-cta
+                button.btn.btn-primary Get Started
+
+    
+
+    section.player
+        .container
+            .row
+                .col-md-6.col-sm-6.col-sm-6.pl-55
+                    .section-details.wow.fadeInUp(data-wow-duration="1.7s", data-wow-delay="1.5s")
+                        h1.section-title Awesome player
+                        p.section-desc In et iaculis justo, a bibendum quam. Curabitur accumsan ullamcorper sem, vitae consectetur elit pretium in. Aliquam tempus id risus eu ullamcorper. Proin et accumsan felis, scelerisque molestie sapien.
+                        button.btn.btn-primary Get Started
+
+                .col-md-6.col-sm-6
+                    img.img-responsive.wow.fadeInUp(src="./assets/img/player.png", alt="", data-wow-duration="2s", data-wow-delay="0.7s")
+
+    section.design
+        .container
+            .row
+                .col-md-6.col-sm-6.wow.fadeInUp(data-wow-duration="2s", data-wow-delay="0.4s")
+                    img.img-responsive(src="./assets/img/menu.png", alt="")
+
+                .col-md-6.col-sm-6.pr-55
+                    .section-details.wow.fadeInUp(data-wow-duration="1.7s", data-wow-delay="1s")
+                        h1.section-title Design
+                        p.section-desc Vestibulum lorem quam, varius eget ipsum vel, lacinia laoreet lorem. Ut posuere elit non convallis blandit. Donec commodo fermentum neque, at sagittis libero faucibus nec. Nam dictum imperdiet dolor vel tincidunt.
+                        button.btn.btn-primary Learn more
+
+
+    section.download
+        .container
+            .row
+                .col-md-8.col-md-push-2.pl-55
+                    .section-details.text-center.wow.fadeIn
+                        h1.section-title This is Awesome
+                        p.section-desc Vestibulum lorem quam, varius eget ipsum vel, lacinia laoreet lorem. Ut posuere elit non convallis blandit. Donec commodo fermentum neque, at sagittis libero faucibus nec. Nam dictum imperdiet dolor vel tincidunt.
+                        button.btn.btn-primary.wow.swing(data-wow-delay="1.5s") Download Now
+
+
+    section.footer
+        img.logo(src="./assets/img/logo.png", alt="")
+
+
