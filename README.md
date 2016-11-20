@@ -11,10 +11,14 @@ Install NodeJS
 $ npm install gulp -g
 
 # Clone this repository
-$ git clone git@github.com:CynderTech/web-starterkit.git && cd web-starterkit
+$ git clone git@github.com:JuneDomingo/music-app-landing.git && cd music-app-landing
 
 # Install dependencies
 $ npm install
+```
+
+```sh
+$ gulp serve
 ```
 
 ### Tasks
